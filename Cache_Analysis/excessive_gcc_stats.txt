@@ -1,0 +1,38 @@
+===== CORE CPU METRICS =====
+sim_cycle                    671412 # total simulation time in cycles
+sim_num_insn                1000001 # total number of instructions committed
+sim_num_refs                 408446 # total number of loads and stores committed
+sim_num_loads                255369 # total number of loads committed
+sim_num_stores          153077.0000 # total number of stores committed
+sim_num_branches             177570 # total number of branches committed
+sim_inst_rate          1000001.0000 # simulation speed (in insts/sec)
+sim_CPI                      0.6714 # cycles per instruction
+sim_IPC                      1.4894 # instructions per cycle
+ruu_occupancy                9.7820 # avg RUU occupancy (insn's)
+
+===== CACHE METRICS =====
+bpred_bimod.misses            14501 # total number of misses
+il1.accesses                1095652 # total number of accesses
+il1.hits                    1087883 # total number of hits
+il1.misses                     7769 # total number of misses
+il1.miss_rate                0.0071 # miss rate (i.e., misses/ref)
+il2.accesses                   7769 # total number of accesses
+il2.hits                       6564 # total number of hits
+il2.misses                     1205 # total number of misses
+il2.miss_rate                0.1551 # miss rate (i.e., misses/ref)
+dl1.accesses                 378462 # total number of accesses
+dl1.hits                     376044 # total number of hits
+dl1.misses                     2418 # total number of misses
+dl1.miss_rate                0.0064 # miss rate (i.e., misses/ref)
+dl2.accesses                   3623 # total number of accesses
+dl2.hits                       2405 # total number of hits
+dl2.misses                     1218 # total number of misses
+dl2.miss_rate                0.3362 # miss rate (i.e., misses/ref)
+itlb.accesses               1095652 # total number of accesses
+itlb.hits                   1095355 # total number of hits
+itlb.misses                     297 # total number of misses
+itlb.miss_rate               0.0003 # miss rate (i.e., misses/ref)
+dtlb.accesses                415392 # total number of accesses
+dtlb.hits                    415316 # total number of hits
+dtlb.misses                      76 # total number of misses
+dtlb.miss_rate               0.0002 # miss rate (i.e., misses/ref)
